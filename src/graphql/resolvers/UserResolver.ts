@@ -11,6 +11,10 @@ let lastId = 20;
 @Resolver(of => User)
 export class UserResolver {
 
+    constructor(
+        
+    ){}
+
     @Query(() => [User])
     getUsers() {
         return mockUsers
