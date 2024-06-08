@@ -1,102 +1,103 @@
+
 export const mockUsers = [
     {
       id: 1,
-      username: 'ram',
+      userName: 'ram',
       displayName: 'Ram The Dancer',
     },
     {
       id: 2,
-      username: 'Tipu',
+      userName: 'Tipu',
       displayName: 'Tipu The Thinker',
     },
     {
       id: 3,
-      username: 'peter',
+      userName: 'peter',
       displayName: 'Peter The Developer',
     },
     {
       id: 4,
-      username: 'lucy',
+      userName: 'lucy',
       displayName: 'Lucy The Coder',
     },
     {
       id: 5,
-      username: 'ethan',
+      userName: 'ethan',
       displayName: 'Ethan The Programmer',
     },
     {
       id: 6,
-      username: 'mia',
+      userName: 'mia',
       displayName: 'Mia The Architect',
     },
     {
       id: 7,
-      username: 'oliver',
+      userName: 'oliver',
       displayName: 'Oliver The Analyst',
     },
     {
       id: 8,
-      username: 'sophia',
+      userName: 'sophia',
       displayName: 'Sophia The Engineer',
     },
     {
       id: 9,
-      username: 'james',
+      userName: 'james',
       displayName: 'James The Developer',
     },
     {
       id: 10,
-      username: 'ava',
+      userName: 'ava',
       displayName: 'Ava The Specialist',
     },
     {
       id: 11,
-      username: 'liam',
+      userName: 'liam',
       displayName: 'Liam The Designer',
     },
     {
       id: 12,
-      username: 'emma',
+      userName: 'emma',
       displayName: 'Emma The Analyst',
     },
     {
       id: 13,
-      username: 'noah',
+      userName: 'noah',
       displayName: 'Noah The Coder',
     },
     {
       id: 14,
-      username: 'amelia',
+      userName: 'amelia',
       displayName: 'Amelia The Developer',
     },
     {
       id: 15,
-      username: 'olivia',
+      userName: 'olivia',
       displayName: 'Olivia The Architect',
     },
     {
       id: 16,
-      username: 'elijah',
+      userName: 'elijah',
       displayName: 'Elijah The Programmer',
     },
     {
       id: 17,
-      username: 'harper',
+      userName: 'harper',
       displayName: 'Harper The Specialist',
     },
     {
       id: 18,
-      username: 'benjamin',
+      userName: 'benjamin',
       displayName: 'Benjamin The Engineer',
     },
     {
       id: 19,
-      username: 'isabella',
+      userName: 'isabella',
       displayName: 'Isabella The Designer',
     },
     {
       id: 20,
-      username: 'lucas',
+      userName: 'lucas',
       displayName: 'Lucas The Analyst',
     },
   ];

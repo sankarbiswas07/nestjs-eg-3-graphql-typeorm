@@ -4,14 +4,13 @@
 
 type UserSetting {
   userId: Int!
-  recieveNotifications: Boolean!
-  recieveEmais: Boolean!
+  recieveNotifications: Boolean
+  recieveEmails: Boolean
 }
 
 type User {
   id: Int!
-  username: String!
-  password: String!
+  userName: String!
   displayName: String
   settings: UserSetting
 }
@@ -19,4 +18,21 @@ type User {
 type Query {
   getUsers: [User!]!
   getUser(id: Int!): User
+  getUserSettings: [UserSetting!]!
+}
+
+type Mutation {
+  CreateUser(createUserInput: CreateUserInput!): User!
+  CreateUserSetting(createUserSettingInput: CreateUserSettingInput!): UserSetting!
+}
+
+input CreateUserInput {
+  userName: String!
+  displayName: String!
+}
+
+input CreateUserSettingInput {
+  userId: Int!
+  recieveNotifications: Boolean
+  recieveEmails: Boolean
 }

@@ -8,10 +8,7 @@ export class User {
     id: number;
 
     @Field()
-    username: string;
-
-    @Field()
-    password: string;
+    userName: string;
 
     @Field({ nullable: true })
     displayName?: string;

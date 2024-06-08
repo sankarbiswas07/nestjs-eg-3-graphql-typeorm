@@ -6,10 +6,10 @@ export class UserSetting {
     @Field((type) => Int)
     userId: number;
 
-    @Field({defaultValue: false})
-    recieveNotifications: boolean;
+    @Field({defaultValue: false, nullable: true})
+    recieveNotifications?: boolean;
 
-    @Field({defaultValue: false})
-    recieveEmais: boolean;
+    @Field({defaultValue: false, nullable: true})
+    recieveEmails?: boolean;
 
 }
