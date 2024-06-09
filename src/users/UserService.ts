@@ -12,12 +12,14 @@ export class UserService {
     ) { }
 
     getUsers() {
+         // here mentioning relations performs joins in the background in a single query
         return this.UserReposiory.find({ relations: ['settings'] })
     }
 
     getUserById(id: number) {
         return this.UserReposiory.findOne({
           where: { id },
+           // here mentioning relations performs joins in the background in a single query
           relations: ['settings'],
         });
       }
