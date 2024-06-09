@@ -21,6 +21,6 @@ export class User {
     @OneToOne(()=> UserSetting)
     @JoinColumn()
     @Field({ nullable: true })
-    settings: UserSetting;
+    settings?: UserSetting;
 
 }

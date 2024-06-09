@@ -1,6 +1,6 @@
 import { Field, Int, ObjectType } from "@nestjs/graphql";
-import { Column, Entity, OneToOne, PrimaryColumn } from "typeorm";
-import { User } from "./User";
+import { Column, Entity, PrimaryColumn } from "typeorm";
+
 
 @Entity({name: 'user_settings'})
 @ObjectType()
