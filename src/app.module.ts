@@ -21,11 +21,12 @@ import { UsersModule } from './users/users.module';
       password: 'mypassword',
       database: 'nest_mysql',
       synchronize: true,
-      entities: [User, UserSetting]
+      entities: [User, UserSetting],
+      logging: true,
     }),
     UsersModule
   ],
   controllers: [],
-  providers: [ UserSettingResolver],
+  providers: [ ],
 })
 export class AppModule {}
